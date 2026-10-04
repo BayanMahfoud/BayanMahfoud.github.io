@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bayan Mahfoud | AI Researcher</title>
+
+  <style>
+    :root {
+      --background: #090b10;
+      --surface: #11151d;
+      --surface-light: #181e28;
+      --text: #edf2f7;
+      --muted: #9ca9b8;
+      --accent: #72b7ff;
+      --accent-soft: rgba(114, 183, 255, 0.12);
+      --border: #263241;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+    }
+
+    header {
+      padding: 90px 0 60px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .label {
+      color: var(--accent);
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    h1 {
+      margin: 15px 0 10px;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      line-height: 1.05;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 1.2rem;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .links a {
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      padding: 9px 16px;
+      border-radius: 7px;
+      transition: 0.2s ease;
+    }
+
+    .links a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    section {
+      padding: 58px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 0;
+      color: var(--text);
+    }
+
+    h3 {
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: var(--muted);
+      max-width: 820px;
+    }
+
+    .research-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 26px;
+      margin-top: 20px;
+    }
+
+    .research-card p {
+      margin-bottom: 0;
+    }
+
+    .interests {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .interest {
+      background: var(--surface-light);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 16px;
+      color: var(--muted);
+    }
+
+    .status {
+      display: inline-block;
+      padding: 7px 12px;
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      padding: 30px 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 60px 0 40px;
+      }
+
+      section {
+        padding: 40px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="label">Artificial Intelligence Research</div>
+
+      <h1>Bayan Mahfoud</h1>
+
+      <p class="subtitle">
+        Undergraduate Artificial Intelligence student and independent researcher
+        interested in computational neuroscience, spiking neural networks,
+        cognitive architectures, and testable models of functional consciousness.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/BayanMahfoud" target="_blank">GitHub</a>
+        <a href="https://orcid.org/0009-0001-2837-3322" target="_blank">ORCID</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Research Interests</h2>
+
+      <div class="interests">
+        <div class="interest">Computational Neuroscience</div>
+        <div class="interest">Spiking Neural Networks</div>
+        <div class="interest">Cognitive Architectures</div>
+        <div class="interest">Functional Consciousness</div>
+        <div class="interest">Reproducible AI Research</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Current Project</h2>
+
+      <div class="research-card">
+        <span class="status">Literature study and theory formulation</span>
+
+        <h3>CSCC: A Testable Architecture for Functional Consciousness</h3>
+
+        <p>
+          CSCC investigates whether a recurrent causal architecture integrating
+          content representation, self-modeling, memory, planning, agency
+          attribution, and metacognitive monitoring can produce measurable
+          functional capabilities associated with consciousness.
+        </p>
+
+        <p>
+          The project does not claim to prove phenomenal consciousness or
+          subjective experience in an artificial system. It focuses on
+          testable internal mechanisms and reproducible experiments.
+        </p>
+
+        <div class="links">
+          <a href="https://github.com/BayanMahfoud/cscc-functional-consciousness"
+             target="_blank">
+            Project Repository
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Research Approach</h2>
+
+      <p>
+        My work focuses on converting broad theoretical ideas into explicit
+        computational mechanisms, measurable predictions, controlled
+        comparisons, and reproducible experiments.
+      </p>
+
+      <p>
+        The current project is being developed gradually through literature
+        analysis, operational definitions, computational modeling, ablation
+        studies, and causal testing.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Bayan Mahfoud
+    </div>
+  </footer>
+</body>
+</html>
